@@ -1,0 +1,31 @@
+.head{
+    top:0;
+    left: 0;
+}
+.logo{
+    width: 43px;
+    height: 40px;
+    background-color: #D9D9D9;
+    border-radius: 50%;
+    display: flex;
+}
+.logo p{
+    padding-left: 6px;
+    margin-top: 8px;
+}
+.cont{
+    display: flex;
+    margin-top: -5px;
+    margin-left: 80px;
+}
+.cont p{
+    margin-left: 50px;
+}
+.auth{
+    display: flex;
+    margin-top: -5px;
+    margin-left: 1100px;
+}
+.auth p{
+    margin-left: 50px;
+}

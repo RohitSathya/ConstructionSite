@@ -1,0 +1,28 @@
+.footer {
+    background-color: #343a40; /* Dark background color */
+    padding: 40px 0; /* Adjust vertical padding as needed */
+  }
+  
+  .footer h3,
+  .footer h5,
+  .footer p,
+  .footer ul {
+    margin-bottom: 20px; /* Adjust spacing between elements */
+  }
+  
+  .footer hr {
+    border-top-color: #6c757d; /* Lighter color for hr */
+  }
+  
+  .footer a {
+    color: #fff; /* Text color for links */
+  }
+  
+  @media (max-width: 768px) {
+    .footer h3,
+    .footer h5,
+    .footer p,
+    .footer ul {
+      text-align: center; /* Center-align elements on smaller screens */
+    }
+  }
