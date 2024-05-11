@@ -13,7 +13,7 @@ export default function home({func}) {
     contactFormRef.current.scrollIntoView({ behavior: 'smooth' });
 };
 const scrollToAboutForm = () => {
-  aboutFormRef.current.scrollIntoView({ behavior: 'smooth' });
+  aboutFormRef.current.scrollIntoView({ behavior:'smooth' });
 };
   return (
      <>

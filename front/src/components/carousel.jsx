@@ -1,8 +1,8 @@
 import React from 'react'
 import './carousel.css'
-import cb1 from '../images/cb1.jpg'
-import cb2 from '../images/cb2.jpg'
-import cb3 from '../images/cb3.jpg'
+import cb1 from '../images/1.jpeg'
+import cb2 from '../images/4.jpeg'
+import cb3 from '../images/3.jpeg'
 import { useState,useEffect } from 'react';
 import './../../node_modules/bootstrap/dist/css/bootstrap.min.css'// Import Bootstrap CSS
 import { Carousel } from 'react-bootstrap';
@@ -29,7 +29,7 @@ export default function carousel() {
         <Carousel.Item key={idx}>
           <img
             className="d-block w-100"
-            src={image}  height='850px'
+            src={image} 
             alt={`Slide ${idx}`}
           />
         </Carousel.Item>

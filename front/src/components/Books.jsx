@@ -10,6 +10,11 @@ import 'react-toastify/dist/ReactToastify.css';
 import apr from '../images/apr.png'
 import rup from '../images/rup.png'
 import sp from '../images/sp1.png'
+import one from '../images/1.jpeg'
+import two from '../images/2.jpeg'
+import three from '../images/3.jpeg'
+import four from '../images/4.jpeg'
+import five from '../images/5.jpeg'
 
 export default function Books({func,contactFormRef }) {
     const nav = useNavigate();
@@ -24,16 +29,16 @@ export default function Books({func,contactFormRef }) {
 
     ]
     const booksData=[
-      {sp:sp,apr:apr,rup:rup,price:'1.3 Cr', name: 'Altezza', color: '#FFF0FF',img:'https://appaswamy.com/assets/admin/uploads/property_thumb/112e411517d19d31c1ab00a14ec2116d.png' },
-      {sp:sp,apr:apr,rup:rup,price:'2.5 Cr', name: 'Clover By The River', color: '#FFFFD4',img:'https://appaswamy.com/assets/admin/uploads/property_thumb/1754983cb740f1086b4c874ede6c8af3.webp' },
-      {sp:sp,apr:apr,rup:rup,price:'1.8 Cr', name: 'Wingfield', color: '#ECFFFF' ,img:'https://appaswamy.com/assets/admin/uploads/property_thumb/6dd7871fbffb86828d405c2c1673678e.webp'},
-      {sp:sp, apr:apr,rup:rup,price:'8 Cr',name: 'Haridra', color: '#F0FFC5' ,img:'https://appaswamy.com/assets/admin/uploads/property_thumb/d1827ab66cf541993d161c9a676985bd.jpg'},
-      {sp:sp, apr:apr,rup:rup,price:'6 Cr',name: 'Broadstone', color: '#FFF0FF' ,img:'https://appaswamy.com/assets/admin/uploads/property_thumb/00b5ab8d5c4d363f2125503f076f64c0.jpg'},
-      {sp:sp,apr:apr,rup:rup,price:'5.5 Cr', name: 'Azure', color: '#FFF0FF',img:'https://appaswamy.com/assets/admin/uploads/property_thumb/1a003f680ce131188a99753629e05e81.webp' },
-      {sp:sp,apr:apr,rup:rup,price:'8.8 Cr', name: 'Mandarina', color: '#FFFFD4',img:'https://appaswamy.com/assets/admin/uploads/property_thumb/ac43199d4aac44eefc402d0e3c43bd2f.jpg' },
-      {sp:sp,apr:apr,rup:rup,price:'2.7 Cr', name: 'Bloomingdale', color: '#ECFFFF' ,img:'https://appaswamy.com/assets/admin/uploads/property_thumb/228417fe6ee6d50e2912bad38039839d.jpg'},
-      { sp:sp,apr:apr,rup:rup,price:'9.8 Cr',name: 'Greensville', color: '#F0FFC5' ,img:'https://appaswamy.com/assets/admin/uploads/property_thumb/959eccd64099b5248c766f9e5c5fbbae.jpg'},
-      { sp:sp,apr:apr,rup:rup,price:'1.4 Cr',name: 'Luz Amor', color: '#FFF0FF' ,img:'https://appaswamy.com/assets/admin/uploads/property_thumb/00c011cf5b8eccd8a16055889e7a1191.jpg'},
+      {sp:sp,apr:apr,rup:rup,price:'1.3 Cr', name: 'Altezza', color: '#FFF0FF',img: one,h:'852'},
+      {sp:sp,apr:apr,rup:rup,price:'2.5 Cr', name: 'Clover By The River', color: '#FFFFD4',img: two,h:'852'},
+      {sp:sp,apr:apr,rup:rup,price:'1.8 Cr', name: 'Wingfield', color: '#ECFFFF' ,img:three,h:'852'},
+      {sp:sp, apr:apr,rup:rup,price:'8 Cr',name: 'Haridra', color: '#F0FFC5' ,img:four,h:'852'},
+      {sp:sp, apr:apr,rup:rup,price:'6 Cr',name: 'Broadstone', color: '#FFF0FF' ,img:five,h:'852'},
+    //   {sp:sp,apr:apr,rup:rup,price:'5.5 Cr', name: 'Azure', color: '#FFF0FF',img:one},
+    //   {sp:sp,apr:apr,rup:rup,price:'8.8 Cr', name: 'Mandarina', color: '#FFFFD4',img: one},
+    //   {sp:sp,apr:apr,rup:rup,price:'2.7 Cr', name: 'Bloomingdale', color: '#ECFFFF' ,img:one},
+    //   { sp:sp,apr:apr,rup:rup,price:'9.8 Cr',name: 'Greensville', color: '#F0FFC5' ,img:one},
+    //   { sp:sp,apr:apr,rup:rup,price:'1.4 Cr',name: 'Luz Amor', color: '#FFF0FF' ,img:one},
       
       
 
@@ -95,7 +100,7 @@ export default function Books({func,contactFormRef }) {
 
     return (
         <>
-            <ToastContainer />
+             <ToastContainer />
             <h1 className='latest'>Latest Release</h1>
 
             <div className='container-fluid'>

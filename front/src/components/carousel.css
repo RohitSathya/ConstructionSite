@@ -9,3 +9,13 @@
     border-radius: 50%;
    box-shadow: #652D90;
 }
+.d-block{
+    object-fit: cover;
+    height: 800px;
+}
+@media (max-width: 768px){
+    .d-block{
+        object-fit: cover;
+        height: 700px;
+    }
+}
