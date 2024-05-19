@@ -29,3 +29,29 @@
 .auth p{
     margin-left: 50px;
 }
+@media(min-width:600px) {
+    .header{
+        height: 100px;
+    }
+   .nav-link{
+     margin-top: 60px;
+     margin-left: 30px;
+   }
+   .cl{
+    margin-left: 170px;
+    margin-top: 50px;
+  
+   }
+   .cls{
+    white-space: nowrap;
+    font-size: 15px;
+    margin-top: 30px;
+   }
+   .clp{
+     margin-top: 70px;
+     white-space: nowrap;
+     margin-left: -100px;
+     font-size: 15px;
+   }
+   
+ }

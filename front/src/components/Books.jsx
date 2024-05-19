@@ -15,6 +15,14 @@ import two from '../images/2.jpeg'
 import three from '../images/3.jpeg'
 import four from '../images/4.jpeg'
 import five from '../images/5.jpeg'
+import plan1 from '../plans/1.jpg'
+import plan2 from '../plans/2.jpg'
+import plan3 from '../plans/3.jpg'
+import plan4 from '../plans/4.jpg'
+import plan5 from '../plans/5.jpg'
+import plan6 from '../plans/6.jpg'
+import plan7 from '../plans/7.jpg'
+import plan8 from '../plans/8.jpg'
 
 export default function Books({func,contactFormRef }) {
     const nav = useNavigate();
@@ -29,11 +37,11 @@ export default function Books({func,contactFormRef }) {
 
     ]
     const booksData=[
-      {sp:sp,apr:apr,rup:rup,price:'1.3 Cr', name: 'Altezza', color: '#FFF0FF',img: one,h:'852'},
-      {sp:sp,apr:apr,rup:rup,price:'2.5 Cr', name: 'Clover By The River', color: '#FFFFD4',img: two,h:'852'},
-      {sp:sp,apr:apr,rup:rup,price:'1.8 Cr', name: 'Wingfield', color: '#ECFFFF' ,img:three,h:'852'},
-      {sp:sp, apr:apr,rup:rup,price:'8 Cr',name: 'Haridra', color: '#F0FFC5' ,img:four,h:'852'},
-      {sp:sp, apr:apr,rup:rup,price:'6 Cr',name: 'Broadstone', color: '#FFF0FF' ,img:five,h:'852'},
+      {sp:sp,apr:apr,rup:rup,price:'1.3 Cr', name: 'Altezza', color: '#FFF0FF',img: one,h:'852',pl:{plan1,plan2}},
+      {sp:sp,apr:apr,rup:rup,price:'2.5 Cr', name: 'Clover River', color: '#FFFFD4',img: two,h:'852',pl:{plan3,plan4}},
+      {sp:sp,apr:apr,rup:rup,price:'1.8 Cr', name: 'Wingfield', color: '#ECFFFF' ,img:three,h:'852',pl:{plan5}},
+      {sp:sp, apr:apr,rup:rup,price:'8 Cr',name: 'Haridra', color: '#F0FFC5' ,img:four,h:'852',pl:{plan6}},
+      {sp:sp, apr:apr,rup:rup,price:'6 Cr',name: 'Broadstone', color: '#FFF0FF' ,img:five,h:'852',pl:{plan7,plan8}},
     //   {sp:sp,apr:apr,rup:rup,price:'5.5 Cr', name: 'Azure', color: '#FFF0FF',img:one},
     //   {sp:sp,apr:apr,rup:rup,price:'8.8 Cr', name: 'Mandarina', color: '#FFFFD4',img: one},
     //   {sp:sp,apr:apr,rup:rup,price:'2.7 Cr', name: 'Bloomingdale', color: '#ECFFFF' ,img:one},

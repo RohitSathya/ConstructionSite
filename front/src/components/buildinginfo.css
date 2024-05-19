@@ -48,4 +48,33 @@ body{
         margin-left: -180px;
      }
     
+    
   }
+  /* Custom styles for the carousel controls */
+/* Custom styles for the carousel controls */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: transparent; /* Remove the background color */
+  border-radius: 0; /* Remove the circular shape */
+  width: 30px; /* Set the width of the icons */
+  height: 30px; /* Set the height of the icons */
+}
+
+.carousel-control-prev-icon {
+  background-image: url('data:image/svg+xml;charset=UTF-8,%3Csvg xmlns%3D"http%3A//www.w3.org/2000/svg" fill%3D"red" viewBox%3D"0 0 8 8"%3E%3Cpath d%3D"M4.5 0L0 4l4.5 4V0z"/%3E%3C/svg%3E'); /* Left arrow */
+}
+
+.carousel-control-next-icon {
+  background-image: url('data:image/svg+xml;charset=UTF-8,%3Csvg xmlns%3D"http%3A//www.w3.org/2000/svg" fill%3D"red" viewBox%3D"0 0 8 8"%3E%3Cpath d%3D"M3.5 0L8 4 3.5 8V0z"/%3E%3C/svg%3E'); /* Right arrow */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%; /* Adjust the width to make the clickable area larger */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-size: 100%, 100%;
+}
+

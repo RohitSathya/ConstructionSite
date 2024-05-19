@@ -3,6 +3,7 @@ import './header.css'
 import { useNavigate } from 'react-router-dom'
 import logo from '../images/logo.png'
 import { Container, Navbar, Nav } from 'react-bootstrap';
+import call from '../images/call.png'
 export default function header({scrollToContactForm,scrollToAboutForm }) {
   const nav=useNavigate()
   const [fl,sfl]=useState(0)
@@ -35,7 +36,11 @@ export default function header({scrollToContactForm,scrollToAboutForm }) {
           <Nav.Link onClick={() => nav('/')} className="nav-link ml-md-4"><b>Home</b></Nav.Link>
             <Nav.Link onClick={scrollToAboutForm} className="nav-link ml-md-4"><b>About Us</b></Nav.Link>
             <Nav.Link onClick={scrollToContactForm} className="nav-link ml-md-4"><b>Contact Us</b></Nav.Link>
+   
           </Nav>
+          <img src={call} width='8%' height='100%' className='cl'></img>
+          <p style={{color:'white'}} className='cls'>Sales Enquiries</p>
+          <p style={{color:'white'}} className='clp'>+91 1234567890</p>
           
         </Navbar.Collapse>
       </Container>
